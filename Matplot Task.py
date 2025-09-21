@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the sales data CSV file directly from the URL into a Pandas DataFrame.
-url = "C:/Users/USER/OneDrive/Documents/FlexiSaf Internship/Week 1/Task 2/Matplot/company_sales_data.csv"
+url = "company_sales_data.csv"
 df = pd.read_csv(url)
 
 # Exercise 1: Plot Total Profit of all months using a line plot.
